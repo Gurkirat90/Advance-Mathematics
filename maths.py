@@ -5,7 +5,7 @@ from scipy.optimize import curve_fit
 
 def run_assignment(roll_number, csv_path):
     print(f"Loading data from {csv_path}...")
-    df = pd.read_csv(csv_path, low_memory=False)
+    df = pd.read_csv(csv_path, low_memory=False, encoding='ISO-8859-1')
     
     if 'no2' not in df.columns:
         df.columns = [c.lower() for c in df.columns]
