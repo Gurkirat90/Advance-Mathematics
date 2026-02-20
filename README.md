@@ -7,3 +7,5 @@ mu     : 19.761261
 
 import maths
 maths.run_assignment(102303256, "india-air-quality-data.csv")
+
+https://www.kaggle.com/datasets/shrutibhargava94/india-air-quality-data
