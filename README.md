@@ -69,7 +69,9 @@ These parameters are learned using nonlinear least squares fitting.
 
 ### Visualization
 
-Below is the histogram of the transformed variable along with the fitted probability density function.
+The figure below shows the histogram of the transformed variable \(z\) along with the fitted probability density function (PDF). The histogram represents the empirical distribution of the transformed NO₂ measurements, while the red curve corresponds to the learned PDF obtained through nonlinear curve fitting.
+
+This visualization helps illustrate how well the estimated model approximates the underlying distribution of the transformed air quality data.
 
 ![PDF Estimation Plot](PDF.png)
 ---
