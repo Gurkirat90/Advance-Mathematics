@@ -12,7 +12,7 @@ def run_assignment(roll_number, csv_path):
     
     x = df['no2'].dropna().values
     
-    ar = 0.05 * (roll_number % 7)
+    ar = 0.5 * (roll_number % 7)
     br = 0.3 * ((roll_number % 5) + 1)
     
     print(f"Parameters for Roll No {roll_number}: ar={ar:.3f}, br={br:.3f}")
